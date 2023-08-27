@@ -103,7 +103,7 @@ export default function MiniDrawer() {
   return (
     <Box sx={{ display: 'flex' }}>
       {/* <CssBaseline /> */}
-      {/* <AppBar position="fixed" open={open}>
+      <AppBar position="fixed" open={open}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -121,12 +121,12 @@ export default function MiniDrawer() {
             APP
           </Typography>
         </Toolbar>
-      </AppBar> */}
-      <Header />
+      </AppBar>
+      {/* <Header /> */}
       <Drawer variant="permanent" open={open}>
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
-            {/* <ChevronLeftIcon/> */}
+            <ChevronLeftIcon/>
             {/* {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />} */}
           </IconButton>
         </DrawerHeader>

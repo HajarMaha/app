@@ -1,0 +1,15 @@
+{
+    "name" : "hajar",
+    "age" : "23",
+    "job" : "engineer",
+    "address" : [
+        {
+            "contry" : "Morocco",
+            "city" : "Casablanca"
+        },
+        {
+            "contry" : "Spain",
+            "city" : "Grenada"
+        }
+    ]
+}
